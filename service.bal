@@ -23,7 +23,7 @@ import hasithah/greeting_lib;
 service / on new http:Listener(9090) {
 
     # A resource for generating greetings
-    # + name - the input string name to be greeted 7
+    # + name - the input string name to be greeted 8
     # + return - string name with hello message or error
     isolated resource function get greeting(string name) returns string|error {
         // Return greetings from the private package
